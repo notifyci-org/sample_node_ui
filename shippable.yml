@@ -5,14 +5,13 @@ language: node_js
 node_js:
   - 0.12
   - 0.10.25
-  - 5
+  #- 5
 
 build:
 
   ci:
     - ps -eax
     - ls -al
-    #PR
     
 integrations:
   hub:
@@ -27,3 +26,4 @@ integrations:
       on_start: always
       on_success: always  
       on_failure: always  
+      on_pull_request: always
