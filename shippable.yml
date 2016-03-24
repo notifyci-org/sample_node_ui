@@ -7,10 +7,10 @@ node_js:
   - 0.10.25
   - 5
 
-matrix:
-  include:
-    - node_js: 5
-      env: tt@!=rr
+#matrix:
+ # include:
+  #  - node_js: 5
+   #   env: tt@!=rr
       
 build:
 
